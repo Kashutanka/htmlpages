@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fleur - Оформление заказа</title>
+    <link rel="stylesheet" href="./style/.css">
+    <link rel="shortcut icon" href="c:\Users\Valentina\Pictures\logo.png" type="image/x-icon" />
+    <meta name="title" content="La Fleur">
+    <meta name="description"
+        content="Изысканный цветочный магазин, где каждый букет создан с любовью и в лучших традициях французского стиля">
+</head>
+
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+        /* Выравнивание по вертикали */
+    }
+
+    .container img {
+        margin-right: 30px;
+        /* Отступ между фото и текстом */
+    }
+
+    .container .text {
+        font-size: 16px;
+    }
+</style>
+
+<body>
+    <header>
+        <h1><a href="landing.html">La Fleur</a>— когда важны детали и
+            настроение</h1>
+        <p>Мы создаём композиции, которые делают моменты особенными</p>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="shipping.html">Доставка</a></li>
+                <li><a href="profile.html">О владельце</a></li>
+                <li><button><a href="singin.html">Регистрация</a></button></li>
+                <li><button><a href="login.html">Вход</a> </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr size="3" color="_blank">
+    <main>
+        <div class="container">
+            <button><a href="love.html"><--</a></button>
+            <div class="text">
+                <h3>Zapolnice formu</h3>
+            </div>
+        </div>
+        <article>
+            <section>
+                <form>
+                    <label>Введите rajon
+                        <input type="text">
+                    </label>
+
+                    <br>
+                    <label>Введите adres
+                        <input type="text">
+                    </label>
+                </form>
+            </section>
+            <section>
+                <h4>Wybiricie sposob oplaty</h4>
+                <form>
+                    <label>
+                        <input type="radio" name="card" value="swedbank">
+                        Swedbank
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="card" value="seb">
+                        SEB
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="card" value="paypal">
+                        PayPal
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="card" value="luminor">
+                        Luminor
+                    </label>
+                    <br>
+                    <label>Введите kartu
+                        <input type="text">
+                    </label>
+                </form>
+            </section>
+            <section>
+                <h4>Wybiricie sposob polucienija</h4>
+                <form>
+                    <label>
+                        <input type="radio" name="delivery" value="namiescie">
+                        "Ja sam zabieru, dostawka sliskom dorogaja!"
+                    </label>
+
+                    <br>
+                    <label>
+                        <input type="radio" name="delivery" value="wdom">
+                        "Dostawcie pod dom!"
+                    </label>
+                </form>
+            </section>
+            <section>
+                <h4>Kogda wam nuzen bukiet? (Zakazyvajcie kak minimum za den do ukazanogo wremeni!)</h4>
+                <form action="#">
+                    <textarea name="pozelanija" rows="5" cols="50">Napisycie pozelanie ili komentarij</textarea>
+                </form>
+            </section>
+            <section>
+                <button>Otplacic</button>
+            </section>
+        </article>
+    </main>
+    <hr size="3" color="_blank">
+    <footer>
+        <p>🌷 Спасибо, что выбираете La Fleur! Мы рады украсить ваш день красивыми цветами</p>
+    </footer>
+</body>
+
+</html>
